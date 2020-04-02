@@ -25,7 +25,7 @@ if(!netlify) {
  *
  * @param {String} html
  * @param {Number} maxCount
- * @param Number} number
+ * @param {Number} number
  * @returns {String}
  */
 export function createLCD(html, width, maxCount, number) {
