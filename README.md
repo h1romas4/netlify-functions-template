@@ -1,7 +1,6 @@
 # netlify-functions-template
 
-[![](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/h1romas4/netlify-functions-template) [![Netlify Status](https://api.netlify.com/api/v1/badges/ace22b90-5f18-4681-89d0-dfa40207706a/deploy-status)](https://app.netlify.com/sites/sample-counter/deploys)
-
+[![](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/h1romas4/netlify-functions-template)
 
 Includes access counter(accessories) sample program.
 
@@ -14,6 +13,8 @@ Note that, The counter disappears when the Lambda instance rebuild.
 > [https://maple4estry.netlify.com/](https://maple4estry.netlify.com/)
 
 ## Develop
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ace22b90-5f18-4681-89d0-dfa40207706a/deploy-status)](https://app.netlify.com/sites/sample-counter/deploys)
 
 ### Local develop
 
