@@ -37,7 +37,11 @@ http://localhost:9000/.netlify/functions/digit?width=500&digit=6&number=10
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/h1romas4/netlify-functions-template)
 
-Open preview internal browser:
+Start Debug
+
+![](https://raw.githubusercontent.com/h1romas4/netlify-functions-template/master/assets/gitpod-01.png)
+
+and Open preview internal browser (paste this command-lines on gitpod terminal):
 
 ```
 gp preview $(gp url 9000)/.netlify/functions/digit/200/5/12345
