@@ -1,6 +1,7 @@
 # netlify-functions-template
 
-[![](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/h1romas4/netlify-functions-template)
+[![](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/h1romas4/netlify-functions-template) [![Netlify Status](https://api.netlify.com/api/v1/badges/ace22b90-5f18-4681-89d0-dfa40207706a/deploy-status)](https://app.netlify.com/sites/sample-counter/deploys)
+
 
 Includes access counter(accessories) sample program.
 
@@ -15,8 +16,6 @@ Note that, The counter disappears when the Lambda instance rebuild.
 ## Develop
 
 ### Local develop
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ace22b90-5f18-4681-89d0-dfa40207706a/deploy-status)](https://app.netlify.com/sites/sample-counter/deploys)
 
 Build & Start application:
 
@@ -36,6 +35,8 @@ http://localhost:9000/.netlify/functions/digit?width=500&digit=6&number=10
 ```
 
 ## Cloud develop
+
+Import project:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/h1romas4/netlify-functions-template)
 
