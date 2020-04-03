@@ -1,7 +1,8 @@
 tasks:
   - init: npm install
     command: npm run devel
-  - command: echo "Plase wait! now npm install && npm run devel" && gp await-port 9000 && gp preview $(gp url 9000)/.netlify/functions/digit?width=200&digit=9&nuimber=123456789
+  - openMode: split-bottom
+    command: gp await-port 9000 && gp preview $(gp url 9000)/.netlify/functions/digit?width=200&digit=9&nuimber=123456789
 ports:
   - port: 9000
     onOpen: ignore
