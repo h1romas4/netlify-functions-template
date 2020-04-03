@@ -1,9 +1,8 @@
 tasks:
   - init: npm install
-  - command: npm run devel:debug
-  - command: gp preview $(gp url 9000)/.netlify/functions/digit/200/5/12345
+  - command: echo "access url:" $(gp url 9000)/.netlify/functions/digit/200/5/12345)
 ports:
   - port: 9000
-    onOpen: open-browser
+    onOpen: open-preview
   - port: 9229
     onOpen: ignore
