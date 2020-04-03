@@ -1,2 +1,5 @@
 tasks:
   - init: npm install
+    command: npm run devel:debug && gp preview $(gp url 9000)/.netlify/functions/digit/200/5/12345
+ports:
+  - port: 9000
