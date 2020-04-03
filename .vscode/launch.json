@@ -17,7 +17,7 @@
             ],
             "sourceMapPathOverrides": {
                 "webpack:///./*": "${workspaceRoot}/src/functions/endpoint/*",
-                "webpack:///../*": "${workspaceRoot}/src/functions/endpoint/*",
+                "webpack:///../*": "${workspaceRoot}/src/functions/*",
                 "webpack:///*": "*"
             }
         },
