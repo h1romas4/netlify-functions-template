@@ -37,6 +37,12 @@ http://localhost:9000/.netlify/functions/digit?width=500&digit=6&number=10
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/h1romas4/netlify-functions-template)
 
+Open preview internal browser:
+
+```
+gp preview $(gp url 9000)/.netlify/functions/digit/200/5/12345
+```
+
 ## Thanks
 
 * Counter SVG & CSS/JS by [@Fujix](https://github.com/Fujix1)
