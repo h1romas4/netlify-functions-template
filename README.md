@@ -33,6 +33,10 @@ http://localhost:9000/.netlify/functions/counter
 http://localhost:9000/.netlify/functions/digit?width=500&digit=6&number=10
 ```
 
+## import Gitpod for cloud develop
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/h1romas4/netlify-functions-template)
+
 ## Thanks
 
 * Counter SVG & CSS/JS by [@Fujix](https://github.com/Fujix1)
