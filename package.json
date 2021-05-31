@@ -5,15 +5,15 @@
         "devel:debug": "npx --node-arg=--inspect netlify-lambda --config ./webpack.functions.js serve src/functions/endpoint"
     },
     "dependencies": {
-        "jsdom": "^16.3.0",
+        "jsdom": "^16.6.0",
         "canvas": "file:./src/functions/canvas",
-        "utf-8-validate": "^5.0.2",
-        "bufferutil": "^4.0.1",
+        "utf-8-validate": "^5.0.5",
+        "bufferutil": "^4.0.3",
         "path-parser": "^6.1.0"
     },
     "devDependencies": {
-        "netlify-lambda": "^2.0.1",
-        "raw-loader": "^4.0.1",
-        "eslint": "^7.6.0"
+        "netlify-lambda": "^2.0.8",
+        "raw-loader": "^4.0.2",
+        "eslint": "^7.27.0"
     }
 }
